@@ -74,10 +74,10 @@ main{
     background-color: black;
     box-sizing: border-box;
     border-radius: 0px 0px 40px 40px;
-    border-top: 0.5px solid #dddddd;
+    border-top: 1px solid #000000;
     position: relative;
-    color: #3d9186;
-    text-align: justify;
+    color: #13daae;
+    text-align: center;
 }
 h2{
     text-align: center;
@@ -166,4 +166,13 @@ footer{
     background-attachment: fixed;
     margin-top: -40px;
     
+}
+.pfinal{
+    width: 100%;
+    height: 80px;
+    color: #13daae;
+    display: inline-block;
+    position: relative;
+    top: 180px;
+    text-align: center;
 }
