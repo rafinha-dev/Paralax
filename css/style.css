@@ -13,8 +13,8 @@ body{
     background-position-x: center;
     background-position-y: -250px;
     background-size: cover;
-    height: 700px;
-    width: 100%;
+    width: 1400px;
+    height: 600px;
     color: white;
     text-align: center;
 
@@ -62,22 +62,27 @@ img{
     margin: auto;
 }
 .barra{
+    border-radius: 40px 40px 40px 40px;
     text-align: center;
     overflow: hidden;
     height: 800px;
     width: 100%;
     background-color: black;
+    width: 1300px;
+    margin: auto;
+    margin-bottom: 70px;
 }
 main{
-    width: 100%;
+    width: 1300px;
     height: 500px;
     background-color: black;
     box-sizing: border-box;
-    border-radius: 0px 0px 40px 40px;
+    border-radius: 40px 40px 40px 40px;
     border-top: 1px solid #000000;
-    position: relative;
+    /* position: relative; */
     color: #13daae;
     text-align: center;
+    margin: auto;
 }
 h2{
     text-align: center;
@@ -156,15 +161,31 @@ section{
     border-radius: 100px;
 }
 /* footer */
-footer{
-    width: 100%;
+.tamanho{
     height: 300px;
-    background-image: url(../asets/ciclovia.jpeg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position-y: -200px;
-    background-attachment: fixed;
     margin-top: -40px;
+    overflow: hidden;
+    /* width: 1350px ; */
+    /* min-width: 1300px; */
+    /* background-image: url(../asets/ciclovia.jpeg); */
+    /* background-size: cover; */
+    /*  */
+    /* A solução para isso é criar um objeto img dentro da div e declarar 100% do valor da div com tamanho fixo */
+    /* background-repeat: no-repeat; */
+    /* background-position-y: -300px; */
+    /* background-attachment: local; */
+    /* background atachment fixed gera um problema que é a imagem dentro da div respondendo ao viewport, isso faz que a imagem mude de posição a medida que se diminui a tela. uma div com posição definida e com comteúdo selecionado dentro dela para se visualizar  pode ficar prejudicada com esse comportamento. em decorrencia do tamanho. Apenas o media query pode resolver isso mantendo a configuração */
+}
+footer{   
+}
+.bicicleta{
+    position: fixed ;
+    bottom: 0px;
+    left: 0px;
+    margin-bottom: -150px;
+    z-index: -1;
+    width:100%;
+    overflow: hidden;
     
 }
 .pfinal{
