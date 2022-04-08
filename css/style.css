@@ -125,12 +125,12 @@ section{
     
 }
 .boxum{
-    width: 90%;
+    width: 70%;
     height: 70%;
     margin: auto;
     background-image: url(../asets/a694b57fadc9a548bd04596fca283628.jpg);
     background-position-y: -20px;
-    background-position-x: -20px;
+    background-position-x: -40px;
     border-radius: 100px;
 }
 .boxdois{
@@ -152,12 +152,12 @@ section{
 
 }
 .boxtres{
-    width: 90%;
+    width: 70%;
     height: 70%;
     margin: auto;
     background-image: url(../asets/images.jpeg);
     background-size: cover;
-    background-position-y: -70px;
+    background-position-y: -50px;
     border-radius: 100px;
 }
 /* footer */
